@@ -1,0 +1,14 @@
+{
+  "name": "backend_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start:backend": "node backend/server.js",
+  "start:frontend": "npm start --prefix frontend",
+  "start": "npm run start:backend & npm run start:frontend"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
